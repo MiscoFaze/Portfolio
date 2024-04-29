@@ -33,11 +33,31 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
 
 </head>
 
 <style>
+
+    .follow{
+
+        @media (min-width: 321px){
+            display: none;
+        }
+
+        @media (min-width: 425px){
+            display: block;
+        }
+    }
+
+    .clients{
+        @media (max-width: 320px){
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+        @media (max-width: 1900px){
+            grid-template-columns: repeat(2, minmax(0, 2fr));
+        }
+    }
 
     .custom-shadow{
         text-shadow: 1px 1px 10px #ffffff3f;
@@ -99,26 +119,29 @@
     <main>
 
         <section>
+
             <header class="p-2 flex flex-col-reverse gap-2 lg:flex-row justify-stretch items-stretch">
 
                 <article class="text-sm relative text-white border-dashed bg border-[#585858] border font-semibold p-2 lg:p-4 bg-[#181818] rounded-md flex flex-col gap-2 lg:flex-row lg:w-8/12">
 
-                    <p class="lg:w-6/12">
+                    <p class="lg:w-6/12 flex">
                         " Helloo! I'm a gaming content video editor from Argentina who enjoys creating fun and entertaining
                         videos, while helping creators grow their audiences. Currently, I'm interested in working with Vtubers but i can also work with any gaming or tech related content. "
                         <br>
-                        ------
+                        ------ " owo " ------
                     </p>
 
                     <div class="lg:w-6/12 lg:flex hidden">
                         <p>
-                            Thanks for visiting, feel free to reach out.
+                            Thanks for visiting, feel free to reach out
                             <br>
                             ---
                             <br>
-                            <span id="reloj">.</span>
+                            <span id="reloj">wait..</span>
                             <br>
                             --
+                            <br>
+                            miscofaze1@gmail.com
                         </p>
                     </div>
 
@@ -157,9 +180,11 @@
                 </article>
 
             </header>
+
         </section>
 
         <section>
+
             <article class="text-white font-semibold flex flex-col-reverse lg:flex-row gap-2 lg:w-12/12 pl-2 pr-2 pb-2 min-h-full">
 
                 <div class="lg:w-6/12 flex flex-col gap-2">
@@ -174,7 +199,7 @@
 
                     </div>
 
-                    <!-- SHORT FORM-->
+                    <!-- SHORT FORM -->
                     <div class="bg-[#181818] bg2 custom-shadow rounded-md p-2 lg:p-4 text-white border-dashed border-[#585858] border flex flex-col gap-2">
 
                         <h2 class="text-xl flex justify-between">
@@ -184,7 +209,7 @@
                             <span class="select-none">8.50 $ Per/Vid</span>
                         </h2>
 
-                        <p>
+                        <p class="text-sm sm:text-base">
                             > Properly cut and paced for viewer engagement.
                             <br>
                             > Dynamic zooms and cut-ins.
@@ -203,7 +228,7 @@
 
                     </div>
 
-                    <!-- LONG FORM-->
+                    <!-- LONG FORM -->
                     <div class="bg-[#181818] bg2 custom-shadow rounded-md p-2 lg:p-4 text-white border-dashed border-[#585858] border flex flex-col gap-2">
 
                         <h2 class="text-xl flex justify-between items-end">
@@ -213,7 +238,7 @@
                             <span class="select-none">7.00 $ Per/Min</span>
                         </h2>
 
-                        <p>
+                        <p class="text-sm sm:text-base">
                             > Properly cut for attention pacing, narrative flow, and audience engagement.
                             <br>
                             > Dynamic zooms and cut-ins.
@@ -222,7 +247,7 @@
                             <br>
                             > Up to 5 minor Revisions (excluding my own faults).
                             <br>
-                            > Optional : Animation (+3$ Per Minute).
+                            > Optional : Animation (+4$ Per Minute).
                             <br>
                             > Subtitles.
                             <br>
@@ -249,7 +274,8 @@
                     <!-- TOS -->
                     <div class="bg-[#181818] bg2 custom-shadow rounded-md p-2 lg:p-4 text-white border-dashed border-[#585858] border flex flex-col gap-2">
 
-                        <div class="flex flex-col gap-2 lg:gap-4">
+                        <div class="flex flex-col gap-2 lg:gap-4 text-sm sm:text-base">
+
                             <span>> Commission approval will be determined through prior discussions, and both parties will agree on the pricing. Regular updates on the commission's progress will be communicated through Discord or Twitter.</span>
 
                             <span>> Payment is agreed before I commence editing, and it will be issued ONLY upon delivery of the finished video.</span>
@@ -265,6 +291,7 @@
                             <span>> All payments are done via PayPal, unless agreed otherwise.</span>
 
                         </div>
+
                     </div>
 
                     <!-- ABOUT SIGN -->
@@ -278,15 +305,17 @@
                     </div>
 
                     <!-- ABOUT -->
-                    <div class="relative text-sm bg-[#181818] bg2 custom-shadow rounded-md p-2 lg:p-4 h-full text-white border-dashed border-[#585858] border grid xl:grid-cols-3 gap-2">
+                    <div class="relative text-sm sm:text-base bg-[#181818] bg2 custom-shadow rounded-md p-2 lg:p-4 h-full text-white border-dashed border-[#585858] border xl:grid xl:grid-cols-3 gap-4">
+
                         <p>
-                            Writing an About section seems to be harder than making a vtuber clip funny, so i'll just list the things i like :
+                            - Writing an About section seems to be harder than making a vtuber clip funny, so i'll just list some things i like :
                             Video Games, EDM, J-Pop, <a target="_blank" href="https://osu.ppy.sh/users/9277944">Osu</a>, Anime Artworks, Tech Stuff,
                             CSGO, Coffe, Pancakes, Anime Girls, Winter Season, Cats, Plants & Flowers, Minecraft, Formula 1, Football, Yellow Color, Mechanical Keyboards, 
                             Web Development & Design, Retro Stuff, Pixel & Pop Art, My Beautiful Country Argentina, Burgers and Catgirls.
                         </p>
-                        <p>
-                            About my Skills, I'been editing videos since 2020, but these video are really silly 
+
+                        <p class="mt-2 xl:mt-0">
+                            - About my Skills, I'been editing videos since 2020, but these video are really silly 
                             and I'm too ashamed to add them to this site. Also, I think that they're not relevant to 
                             this portfolio.
                             <br>
@@ -294,8 +323,9 @@
                             <br>
                             I also have a decent level with Photoshop but my design skills are weak.
                         </p>
-                        <p>
-                            When I originally designed this layout it didn’t have a row of boxes here. Because I ran out 
+
+                        <p class="mt-2 xl:mt-0">
+                            - When I originally designed this layout it didn’t have a row of boxes here. Because I ran out 
                             of links and other parts of this webisite that will probably never be finished, I decided to 
                             just write this here and be honest about it. For some reason, I really like bodies of copy as 
                             a design element. It takes up space without shouting. If you’ve read this much, thanks for 
@@ -313,66 +343,127 @@
 
                 <div class="lg:w-6/12 flex flex-col gap-2">
 
-                    <!-- CLIENTS
-
-                    <div style="background-size: cover;" class="select-none bg-[#181818] bg2 custom-shadow rounded-md p-2 lg:p-4 text-white font-semibold border-dashed border-[#585858] border">
+                    <!-- CLIENTS SIGN -->
+                    <div class="hidden select-none bg-[#181818] bg2 custom-shadow rounded-md p-2 lg:p-4 text-white font-semibold border-dashed border-[#585858] border" style="background-size: cover;" >
                         <h2 class="text-2xl lg:text-3xl font bold flex justify-between">
                             CLIENTS
                             <span>↙</span>
                         </h2>
                     </div>
 
-                    <div class="flex justify-between select-none bg-[#181818] bg2 custom-shadow rounded-md p-2 lg:p-4 text-white font-semibold border-dashed border-[#585858] border" style="background-size: cover;" >
-                        <div class="flex flex-col w-fit gap-2">
-                            <div class="flex items-center gap-2">
-                                <a href="https://twitter.com/nekrolina/photo">
-                                    <img class="h-20 w-20 rounded-full border-[2.7px] border-[#7c7676]" src="public/linapfp.jpg" alt="">
-                                </a>
-                                <div class="text-xs">
-                                    <a href="https://twitter.com/nekrolina/photo">
-                                        <h1 class="text-xl bold">NEKROLINA</h1>
-                                    </a>
-                                    <h1>Independent Vtuber</h1>
-                                    <h1>Netherland's #1 Catgirl</h1>
-                                    <h1>70k Followers</h1>
+                    <!-- CLIENTS -->
+                    <div class="hidden grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-2 clients">
+
+                        <!-- CLIENT 1 -->
+                        <div class="bg-[#181818] bg2 custom-shadow rounded-md p-2 xl:p-4 text-white font-semibold border-dashed border-[#585858] border" style="background-size: cover;" >
+                            <div class="flex lg:items-center gap-2">
+                                <div class="relative select-none">
+                                    <img class="w-10 h-10 sm:h-12 sm:w-12 lg:h-16 lg:w-16 xl:h-20 xl:w-20 rounded-full border-[2.7px] border-[#7c7676]" src="public/gradpfp.jpg">
+                                    <img class="rounded-full border-[1px] border-[#7c7676] w-2 min-w-[20px] mb-2 absolute bottom-0 left-0 shadow-xl hidden lg:block" src="public/germany.svg">
+                                </div>
+                                <!--INFO-->
+                                <div class="flex flex-col gap-1 lg:gap-0 lg:justify-normal">
+                                    <!--TEXT-->
+                                    <div>
+                                        <h1 class="text-base lg:text-xl bold" style="line-height: 16px;">GradNC</h1>
+                                        <h1 class="text-xs xl:text-base hidden md:block select-none">An Ouroboros??</h1>
+                                    </div>
+                                    <!--FOLLOWERS-->
+                                    <div class="flex gap-2 text-xs xl:text-sm select-none">
+                                        <a href="https://www.youtube.com/@gradnc" target="_blank" class="flex gap-1 items-center hover:scale-95">
+                                            <img class="w-2 min-w-[19px]" src="public/yt.svg" alt="">
+                                            <h1 class="follow">222k</h1>
+                                        </a>
+                                        <a href="https://www.tiktok.com/@officialgradnc" target="_blank" class="flex gap-0.5 items-center hover:scale-95">
+                                            <img class="w-2 min-w-[16px]" src="public/tiktok-svgrepo-com.svg" alt="">
+                                            <h1 class="follow">4k</h1>
+                                        </a>
+                                        <a href="https://www.twitch.tv/gradnc" target="_blank" class="flex gap-1 items-center hover:scale-95">
+                                            <img class="w-2 min-w-[17px]" src="public/twitch.svg" alt="">
+                                            <h1 class="follow">1k</h1>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="flex flex-col w-fit gap-2">
-                            <div class="flex items-center gap-2">
-                                <a href="https://twitter.com/nekrolina/photo">
-                                    <img class="h-20 w-20 rounded-full border-[2.7px] border-[#7c7676]" src="public/linapfp.jpg" alt="">
-                                </a>
-                                <div class="text-xs">
-                                    <a href="https://twitter.com/nekrolina/photo">
-                                        <h1 class="text-xl bold">NEKROLINA</h1>
-                                    </a>
-                                    <h1>Independent Vtuber</h1>
-                                    <h1>Netherland's #1 Catgirl</h1>
-                                    <h1>70k Followers</h1>
+
+                        <!-- CLIENT 1 -->
+                        <div class="bg-[#181818] bg2 custom-shadow rounded-md p-2 xl:p-4 text-white font-semibold border-dashed border-[#585858] border" style="background-size: cover;" >
+                            <div class="flex lg:items-center gap-2">
+                                <div class="relative select-none">
+                                    <img class="w-10 h-10 sm:h-12 sm:w-12 lg:h-16 lg:w-16 xl:h-20 xl:w-20 rounded-full border-[2.7px] border-[#7c7676]" src="public/gradpfp.jpg">
+                                    <img class="rounded-full border-[1px] border-[#7c7676] w-2 min-w-[20px] mb-2 absolute bottom-0 left-0 shadow-xl hidden lg:block" src="public/germany.svg">
+                                </div>
+                                <!--INFO-->
+                                <div class="flex flex-col gap-1 lg:gap-0 lg:justify-normal">
+                                    <!--TEXT-->
+                                    <div>
+                                        <h1 class="text-base lg:text-xl bold" style="line-height: 16px;">GradNC</h1>
+                                        <h1 class="text-xs xl:text-base hidden md:block select-none">An Ouroboros??</h1>
+                                    </div>
+                                    <!--FOLLOWERS-->
+                                    <div class="flex gap-2 text-xs xl:text-sm select-none">
+                                        <a href="https://www.youtube.com/@gradnc" target="_blank" class="flex gap-1 items-center hover:scale-95">
+                                            <img class="w-2 min-w-[19px]" src="public/yt.svg" alt="">
+                                            <h1 class="follow">222k</h1>
+                                        </a>
+                                        <a href="https://www.tiktok.com/@officialgradnc" target="_blank" class="flex gap-0.5 items-center hover:scale-95">
+                                            <img class="w-2 min-w-[16px]" src="public/tiktok-svgrepo-com.svg" alt="">
+                                            <h1 class="follow">4k</h1>
+                                        </a>
+                                        <a href="https://www.twitch.tv/gradnc" target="_blank" class="flex gap-1 items-center hover:scale-95">
+                                            <img class="w-2 min-w-[17px]" src="public/twitch.svg" alt="">
+                                            <h1 class="follow">1k</h1>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="flex flex-col w-fit gap-2">
-                            <div class="flex items-center gap-2">
-                                <a href="https://twitter.com/nekrolina/photo">
-                                    <img class="h-20 w-20 rounded-full border-[2.7px] border-[#7c7676]" src="public/linapfp.jpg" alt="">
-                                </a>
-                                <div class="text-xs">
-                                    <a href="https://twitter.com/nekrolina/photo">
-                                        <h1 class="text-xl bold">NEKROLINA</h1>
-                                    </a>
-                                    <h1>Independent Vtuber</h1>
-                                    <h1>Netherland's #1 Catgirl</h1>
-                                    <h1>70k Followers</h1>
+
+                        <!-- CLIENT 1 -->
+                        <div class="bg-[#181818] bg2 custom-shadow rounded-md p-2 xl:p-4 text-white font-semibold border-dashed border-[#585858] border" style="background-size: cover;" >
+                            <div class="flex lg:items-center gap-2">
+                                <div class="relative select-none">
+                                    <img class="w-10 h-10 sm:h-12 sm:w-12 lg:h-16 lg:w-16 xl:h-20 xl:w-20 rounded-full border-[2.7px] border-[#7c7676]" src="public/gradpfp.jpg">
+                                    <img class="rounded-full border-[1px] border-[#7c7676] w-2 min-w-[20px] mb-2 absolute bottom-0 left-0 shadow-xl hidden lg:block" src="public/germany.svg">
+                                </div>
+                                <!--INFO-->
+                                <div class="flex flex-col gap-1 lg:gap-0 lg:justify-normal">
+                                    <!--TEXT-->
+                                    <div>
+                                        <h1 class="text-base lg:text-xl bold" style="line-height: 16px;">GradNC</h1>
+                                        <h1 class="text-xs xl:text-base hidden md:block select-none">An Ouroboros??</h1>
+                                    </div>
+                                    <!--FOLLOWERS-->
+                                    <div class="flex gap-2 text-xs xl:text-sm select-none">
+                                        <a href="https://www.youtube.com/@gradnc" target="_blank" class="flex gap-1 items-center hover:scale-95">
+                                            <img class="w-2 min-w-[19px]" src="public/yt.svg" alt="">
+                                            <h1 class="follow">222k</h1>
+                                        </a>
+                                        <a href="https://www.tiktok.com/@officialgradnc" target="_blank" class="flex gap-0.5 items-center hover:scale-95">
+                                            <img class="w-2 min-w-[16px]" src="public/tiktok-svgrepo-com.svg" alt="">
+                                            <h1 class="follow">4k</h1>
+                                        </a>
+                                        <a href="https://www.twitch.tv/gradnc" target="_blank" class="flex gap-1 items-center hover:scale-95">
+                                            <img class="w-2 min-w-[17px]" src="public/twitch.svg" alt="">
+                                            <h1 class="follow">1k</h1>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
-                    -->
 
-                    <!--GALLERY > -->
+                    <!-- PORTFOLIO SIGN -->
+                    <div style="background-size: cover;" class="select-none bg-[#181818] bg2 custom-shadow rounded-md p-2 lg:p-4 text-white font-semibold border-dashed border-[#585858] border">
+                        <h2 class="text-2xl lg:text-3xl font bold flex justify-between">
+                            PORTFOLIO
+                            <span>↙</span>
+                        </h2>
+                    </div>
+                    <!-- GALLERY -->
                     <div class="bg-[#181818] bg2 p-2 rounded-md border-dashed border-[#585858] border">
                         <div class="grid grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 rounded-md overflow-hidde border-dashed border-[#585858] border h-fit">
                             <video class="min-h-[100%] border-dashed loading-background" controls controlslist="nodownload noremoteplayback noplaybackrate" src="public/VEI EN.mp4#t=0.3"></video>
@@ -381,22 +472,25 @@
                             <video class="min-h-[100%] border-dashed loading-background" controls controlslist="nodownload noremoteplayback noplaybackrate" src="public/NEKOLINA PORTFOLIO.mp4#t=0.3"></video>
                             <video class="min-h-[100%] border-dashed loading-background" controls controlslist="nodownload noremoteplayback noplaybackrate" src="public/SAYU EN.mp4#t=0.95"></video>
                             <video class="min-h-[100%] border-dashed loading-background" controls controlslist="nodownload noremoteplayback noplaybackrate" src="public/DEME EN.mp4#t=1"></video>
-                            <video class="min-h-[100%] border-dashed loading-background" controls controlslist="nodownload noremoteplayback noplaybackrate" src="public/rainhoedeme.mp4"></video>
+                            <video class="min-h-[100%] border-dashed loading-background" controls controlslist="nodownload noremoteplayback noplaybackrate" src="public/rainhoedeme.mp4#t=1"></video>
                             <video class="min-h-[100%] border-dashed loading-background" controls controlslist="nodownload noremoteplayback noplaybackrate" src="public/GRIMMIVT EN.mp4#t=0.3"></video>
                             <video class="min-h-[100%] border-dashed loading-background" controls controlslist="nodownload noremoteplayback noplaybackrate" src="public/LUMI EN.mp4#t=0.3"></video>
                         </div>
                     </div>
 
                 </div>
+
             </article>
+
         </section>
 
         <section>
+
             <footer class="pl-2 pr-2 pb-2">
                 <div style="background-size: cover;" class="flex justify-between items-center bg-[#181818] bg2 custom-shadow rounded-md p-2 lg:p-4 text-white font-semibold border-dashed border-[#585858] border">
 
                     <h2 class="text-xs font bold select-none">
-                        <a target="_blank" href="https://github.com/MiscoFaze/Portfolio">- Last Updated ::: 20 04 24 ::: -</a>
+                        <a target="_blank" href="https://github.com/MiscoFaze/Portfolio">| ::: Last Updated ::: 29 04 24 ::: |</a>
                     </h2>
 
                     <div class="select-none bg bg-[#181818] flex justify-between gap-2 rounded-md">
@@ -416,6 +510,7 @@
 
                 </div>
             </footer>
+
         </section>
 
     </main>
