@@ -635,6 +635,10 @@ video {
   width: 0.5rem;
 }
 
+.w-3 {
+  width: 0.75rem;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -650,22 +654,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-3 {
-  width: 0.75rem;
-}
-
-.min-w-\[13px\] {
-  min-width: 13px;
-}
-
-.min-w-\[14px\] {
-  min-width: 14px;
-}
-
-.min-w-\[15px\] {
-  min-width: 15px;
 }
 
 .min-w-\[20px\] {
@@ -892,6 +880,11 @@ video {
   font-style: normal;
 }
 
+.hover\:translate-x-1:hover {
+  --tw-translate-x: 0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .hover\:scale-90:hover {
   --tw-scale-x: .9;
   --tw-scale-y: .9;
@@ -972,6 +965,10 @@ video {
     width: 4rem;
   }
 
+  .lg\:w-4 {
+    width: 1rem;
+  }
+
   .lg\:w-4\/12 {
     width: 33.333333%;
   }
@@ -982,18 +979,6 @@ video {
 
   .lg\:w-8\/12 {
     width: 66.666667%;
-  }
-
-  .lg\:w-4 {
-    width: 1rem;
-  }
-
-  .lg\:min-w-\[16px\] {
-    min-width: 16px;
-  }
-
-  .lg\:min-w-\[19px\] {
-    min-width: 19px;
   }
 
   .lg\:grid-cols-2 {
