@@ -68,6 +68,24 @@
         }
     }
 
+    @media (min-width: 640px){
+        .blank{
+            display: block;
+        }
+    }
+
+    @media (min-width: 1024px){
+        .blank{
+            display: none;
+        }
+    }
+
+    @media (min-width: 1900px){
+        .blank{
+            display: block;
+        }
+    }
+
     .custom-shadow{
         text-shadow: 1px 1px 10px #ffffff3f;
     }
@@ -261,11 +279,11 @@
                             <br>
                             > Up to 5 minor Revisions (excluding my own faults).
                             <br>
-                            > Optional : Animation (+4$ Per Minute).
+                            > Optional : Animation (+2$ Per Minute).
                             <br>
                             > Subtitles.
                             <br>
-                            <a href="https://www.youtube.com/watch?v=J---aiyznGQ">> Memes.</a>
+                            <a target="_blank" href="https://www.youtube.com/watch?v=J---aiyznGQ">> Memes :v</a>
                         </p>
 
                         <h3 class="text-sm opacity-50 flex justify-between items-end">
@@ -333,9 +351,9 @@
                             and I'm too ashamed to add them to this site. Also, I think that they're not relevant to 
                             this portfolio.
                             <br>
-                            For my videos I'm using Capcut & Sony Vegas, but I soon want to switch to Premiere since it is the standard software for editing.
+                            For my videos I recently started to use Premiere Pro, since it is the standard for video editing.
                             <br>
-                            I also have a decent level with Photoshop but my design skills are weak.
+                            I can also work with Capcut & Vegas and I have a decent skill level with Photoshop.
                         </p>
 
                         <p class="mt-2 xl:mt-0">
@@ -406,7 +424,7 @@
                             <div class="flex lg:items-center gap-2">
                                 <div class="relative select-none">
                                     <img class="w-10 h-10 min-w-[40px] sm:h-12 sm:w-12 lg:h-16 lg:w-16 xl:h-20 xl:w-20 rounded-full border-[1px] lg:border-[2.7px] border-[#7c7676]" src="public/spicapfp.jpg">
-                                    <img class="rounded-full border-[1px] border-[#7c7676] w-2 min-w-[20px] mb-2 absolute bottom-0 left-0 shadow-xl hidden lg:block" src="public/blankpfp.png">
+                                    <img class="rounded-full border-[1px] border-[#7c7676] w-2 min-w-[20px] mb-2 absolute bottom-0 left-0 shadow-xl hidden lg:block" src="public/japan.svg">
                                 </div>
                                 <!--INFO-->
                                 <div class="flex flex-col gap-1 lg:gap-0 lg:justify-normal">
@@ -493,7 +511,7 @@
                                         </a>
                                         <a href="https://www.youtube.com/@matchacowvt" target="_blank" class="flex gap-1 items-center hover:scale-95">
                                             <img class="w-3 lg:w-4" src="public/yt.svg" alt="">
-                                            <h1 class="follow">79</h1>
+                                            <h1 class="follow">100</h1>
                                         </a>
                                     </div>
                                 </div>
@@ -522,7 +540,7 @@
                                         </a>
                                         <a href="https://www.twitch.tv/vivybless" target="_blank" class="flex gap-1 items-center hover:scale-95">
                                             <img class="w-3 lg:w-4" src="public/twitch.svg" alt="">
-                                            <h1 class="follow">412</h1>
+                                            <h1 class="follow">606</h1>
                                         </a>
                                         <div href="" target="_blank" class="flex gap-1 items-center hover:scale-95 opacity-20">
                                             <img class="w-3 lg:w-4" src="public/yt.svg" alt="">
@@ -584,11 +602,11 @@
                                     <div class="flex gap-2 text-xs xl:text-sm select-none">
                                         <a href="https://www.tiktok.com/@lynnexe_" target="_blank" class="flex gap-0.5 items-center hover:scale-95">
                                             <img class="w-3 lg:w-4" src="public/tiktok-svgrepo-com.svg" alt="">
-                                            <h1>430</h1>
+                                            <h1>1k</h1>
                                         </a>
                                         <a href="https://www.twitch.tv/llynnexe" target="_blank" class="flex gap-1 items-center hover:scale-95">
                                             <img class="w-3 lg:w-4" src="public/twitch.svg" alt="">
-                                            <h1 class="follow">132</h1>
+                                            <h1 class="follow">141</h1>
                                         </a>
                                         <div href="" target="_blank" class="flex gap-1 items-center hover:scale-95 opacity-20">
                                             <img class="w-3 lg:w-4" src="public/yt.svg" alt="">
@@ -633,7 +651,7 @@
                         </div>
 
                         <!-- BLANK -->
-                        <div class="bg-[#181818] bg2 custom-shadow rounded-md p-2 xl:p-4 text-white font-semibold border-dashed border-[#585858] border" style="background-size: cover;" >
+                        <div class="blank hidden bg-[#181818] bg2 custom-shadow rounded-md p-2 xl:p-4 text-white font-semibold border-dashed border-[#585858] border" style="background-size: cover;" >
                             <div class="flex lg:items-center gap-2">
                                 <div class="relative select-none">
                                     <img class="w-10 h-10 min-w-[40px] sm:h-12 sm:w-12 lg:h-16 lg:w-16 xl:h-20 xl:w-20 rounded-full border-[1px] lg:border-[2.7px] border-[#7c7676]" src="public/blankpfp.jpg">
@@ -736,7 +754,7 @@ setInterval(() => {
     const hours = now.getHours().toString().padStart(2, '0');
     const minutes = now.getMinutes().toString().padStart(2, '0');
     const reloj = hours + ':' + minutes;
-    document.getElementById("reloj").innerHTML = reloj + " = Argentinian time ( GMT-3 )"
+    document.getElementById("reloj").innerHTML = reloj + " = Argentina time ( GMT-3 )"
 }, 100);
 
 </script>
