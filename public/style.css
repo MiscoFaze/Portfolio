@@ -694,6 +694,10 @@ video {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -776,6 +780,11 @@ video {
   border-color: rgb(88 88 88 / var(--tw-border-opacity));
 }
 
+.border-\[\#66a16e\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(102 161 110 / var(--tw-border-opacity));
+}
+
 .border-\[\#7c7676\] {
   --tw-border-opacity: 1;
   border-color: rgb(124 118 118 / var(--tw-border-opacity));
@@ -784,6 +793,11 @@ video {
 .bg-\[\#181818\] {
   --tw-bg-opacity: 1;
   background-color: rgb(24 24 24 / var(--tw-bg-opacity));
+}
+
+.bg-green-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
 }
 
 .bg-red-900 {
@@ -1077,10 +1091,6 @@ video {
 
   .xl\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .xl\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .xl\:flex-row {
