@@ -258,12 +258,12 @@
                         </h3>
 
                         <!-- STATUS CLOSED -->
-                        <div style="background-image: url(public/bg-btn.svg); background-size: cover;" class=" text-sm sm:text-base absolute bottom-0 right-0 m-2 lg:m-4 p-1 bg-red-900 rounded-md select-none border-[#380d0d] border">
+                        <div style="background-image: url(public/bg-btn.svg); background-size: cover;" class="hidden text-sm sm:text-base absolute bottom-0 right-0 m-2 lg:m-4 p-1 bg-red-900 rounded-md select-none border-[#380d0d] border">
                             <h1>COMMS = CLOSED</h1>
                         </div>
 
                         <!-- STATUS OPEN -->
-                        <div style="background-image: url(public/bg-btn.svg); background-size: cover;" class="hidden text-sm sm:text-base absolute bottom-0 right-0 m-2 lg:m-4 p-1 bg-green-600 rounded-md select-none border-[#66a16e] border">
+                        <div style="background-image: url(public/bg-btn.svg); background-size: cover;" class=" text-sm sm:text-base absolute bottom-0 right-0 m-2 lg:m-4 p-1 bg-green-600 rounded-md select-none border-[#66a16e] border">
                             <h1>COMMS = OPEN</h1>
                         </div>
 
@@ -301,12 +301,12 @@
                         </h3>
 
                         <!-- STATUS CLOSED -->
-                        <div style="background-image: url(public/bg-btn.svg); background-size: cover;" class=" text-sm sm:text-base absolute bottom-0 right-0 m-2 lg:m-4 p-1 bg-red-900 rounded-md select-none border-[#380d0d] border">
+                        <div style="background-image: url(public/bg-btn.svg); background-size: cover;" class="hidden text-sm sm:text-base absolute bottom-0 right-0 m-2 lg:m-4 p-1 bg-red-900 rounded-md select-none border-[#380d0d] border">
                             <h1>COMMS = CLOSED</h1>
                         </div>
 
                         <!-- STATUS OPEN -->
-                        <div style="background-image: url(public/bg-btn.svg); background-size: cover;" class="hidden text-sm sm:text-base absolute bottom-0 right-0 m-2 lg:m-4 p-1 bg-green-600 rounded-md select-none border-[#66a16e] border">
+                        <div style="background-image: url(public/bg-btn.svg); background-size: cover;" class=" text-sm sm:text-base absolute bottom-0 right-0 m-2 lg:m-4 p-1 bg-green-600 rounded-md select-none border-[#66a16e] border">
                             <h1>COMMS = OPEN</h1>
                         </div>
 
@@ -648,14 +648,14 @@
                         </h2>
                     </div>
                     <!-- YT VIDEO  -->
-                    <div class="bg-[#181818] aspect-video bg2 p-2 rounded-md border-dashed border-[#585858] border loading-background h-full">
-                        <iframe
+                    <div class="bg-[#181818] bg2 p-2 rounded-md border-dashed border-[#585858] border loading-background h-full">
+                        <iframe id="iframe1"
                             class="aspect-video w-full h-full rounded-md border-dashed border-[#585858] border"
                             width="100%" height="100%"
                             src="https://www.youtube.com/embed/u_jMyGwvUlA?si=YhggYadRGRCVeg4l"
                             title="YouTube video player"
                             frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allow="accelerometer; muted; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin"
                             allowfullscreen>
                         </iframe>
@@ -663,18 +663,18 @@
                     <!-- GALLERY -->
                     <div class="bg-[#181818] bg2 p-2 rounded-md border-dashed border-[#585858] border h-full">
                         <div class="grid grid-cols-2 xl:grid-cols-3 rounded-md border-dashed border-[#585858] border h-full">
-                            <video class="min-h-[100%] border-dashed loading-background" controls controlslist="nodownload noremoteplayback noplaybackrate" src="public/batch5-5.mp4"></video>
-                            <video class="min-h-[100%] border-dashed loading-background" controls controlslist="nodownload noremoteplayback noplaybackrate" src="public/VEI EN.mp4#t=0.3"></video>
-                            <video class="min-h-[100%] border-dashed loading-background" controls controlslist="nodownload noremoteplayback noplaybackrate" src="public/Grimmi 2 EN.mp4#t=0.3"></video>
-                            <video class="min-h-[100%] border-dashed loading-background" controls controlslist="nodownload noremoteplayback noplaybackrate" src="public/DEME 2 EN.mp4#t=0.3"></video>
-                            <video class="min-h-[100%] border-dashed loading-background" controls controlslist="nodownload noremoteplayback noplaybackrate" src="public/NEKOLINA PORTFOLIO.mp4#t=0.3"></video>
-                            <video class="min-h-[100%] border-dashed loading-background" controls controlslist="nodownload noremoteplayback noplaybackrate" src="public/SAYU EN.mp4#t=0.95"></video>
-                            <video class="min-h-[100%] border-dashed loading-background" controls controlslist="nodownload noremoteplayback noplaybackrate" src="public/DEME EN.mp4#t=1"></video>
-                            <video class="min-h-[100%] border-dashed loading-background" controls controlslist="nodownload noremoteplayback noplaybackrate" src="public/rainhoedeme.mp4#t=1"></video>
-                            <video class="min-h-[100%] border-dashed loading-background hidden xl:block" controls controlslist="nodownload noremoteplayback noplaybackrate" src="public/GRIMMIVT EN.mp4#t=0.3"></video>
+                            <video class="min-h-[100%] border-dashed loading-background" controls autoplay muted loop controlslist="nodownload noremoteplayback noplaybackrate" src="public/batch5-5.mp4"></video>
+                            <video class="min-h-[100%] border-dashed loading-background" controls autoplay muted loop controlslist="nodownload noremoteplayback noplaybackrate" src="public/VEI EN.mp4#t=0.3"></video>
+                            <video class="min-h-[100%] border-dashed loading-background" controls autoplay muted loop controlslist="nodownload noremoteplayback noplaybackrate" src="public/Grimmi 2 EN.mp4#t=0.3"></video>
+                            <video class="min-h-[100%] border-dashed loading-background" controls autoplay muted loop controlslist="nodownload noremoteplayback noplaybackrate" src="public/DEME 2 EN.mp4#t=0.3"></video>
+                            <video class="min-h-[100%] border-dashed loading-background" controls autoplay muted loop controlslist="nodownload noremoteplayback noplaybackrate" src="public/NEKOLINA PORTFOLIO.mp4#t=0.3"></video>
+                            <video class="min-h-[100%] border-dashed loading-background" controls autoplay muted loop controlslist="nodownload noremoteplayback noplaybackrate" src="public/SAYU EN.mp4#t=0.95"></video>
+                            <video class="min-h-[100%] border-dashed loading-background" controls autoplay muted loop controlslist="nodownload noremoteplayback noplaybackrate" src="public/DEME EN.mp4#t=1"></video>
+                            <video class="min-h-[100%] border-dashed loading-background" controls autoplay muted loop controlslist="nodownload noremoteplayback noplaybackrate" src="public/rainhoedeme.mp4#t=1"></video>
+                            <video class="min-h-[100%] border-dashed loading-background hidden xl:block" controls autoplay muted loop controlslist="nodownload noremoteplayback noplaybackrate" src="public/GRIMMIVT EN.mp4#t=0.3"></video>
                         </div>
                     </div>
-
+ 
                 </div>
 
             </article>
